@@ -13,7 +13,6 @@ Se crearon diferentes ramas para gestionar las distintas etapas del desarrollo d
 - **HTML**: Estructuración del contenido.
 - **CSS**: Estilo y diseño de la aplicación.
 - **JavaScript (JS)**: Lógica del lado del cliente.
-- **Bootstrap**: Framework CSS para un diseño responsivo y moderno.
 - **React**: Biblioteca para construir interfaces de usuario.
 
 ## Proyecto

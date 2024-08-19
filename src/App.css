@@ -254,7 +254,7 @@ body {
   background-color: #0097a7; 
 }
 
-/* Brief Component Styles */
+/* Brief */
 .carrito-detail {
   display: flex;
   flex-direction: column;
@@ -355,8 +355,6 @@ body {
 .btn-finalizar-compra:hover {
   background-color: darkgreen;
 }
-
-/**/
 
 /*FinalizarCompra */
 .form-finalizar-compra {
