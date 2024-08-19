@@ -6,7 +6,10 @@ Esta rama contiene la actividad final del curso de React con Vite. El proyecto e
 
 ## Uso
 
-Se crearon diferentes ramas para gestionar las distintas etapas del desarrollo del curso. Cada rama corresponde a una instancia específica de la cursada, facilitando el seguimiento del progreso y las versiones del proyecto.
+- **1**: Clonar el repositorio `git clone 'xxx'`.
+- **2**: Instalar node_modules `npm install`.
+- **3**: Iniciar la app desde la terminal `npm run dev`.
+- **4**: Disfrutar el proyecto en el localhost del navegador.
 
 ## Tecnologías Usadas
 
@@ -20,6 +23,8 @@ Se crearon diferentes ramas para gestionar las distintas etapas del desarrollo d
 El proyecto consiste en una tienda online en la que los usuarios pueden explorar y comprar diferentes tipos de ropa ficticia. La aplicación permite a los usuarios ver productos, añadirlos al carrito y simular una compra.
 
 ## Características
+
+- **React Router DOM**: Manejo de navegación entre diferentes vistas de la tienda.
 
 - **Hooks de React utilizados**:
   - `useEffect`: Para manejar efectos secundarios como la obtención de datos y la sincronización del estado.
