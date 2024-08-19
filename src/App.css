@@ -411,14 +411,16 @@ body {
   margin-top: 10px;
 }
 
-@media (max-width: 768px) {
+/* Media Queries */
+
+@media (max-width: 860px) {
   .navbar {
     flex-direction: column;
-    gap: 12px;
+    gap: 0px;
   }
 
   .navbar-links {
-    flex-direction: column;
+    flex-direction: row;
     gap: 5px;
   }
 
@@ -431,4 +433,67 @@ body {
     width: 100%;
     max-width: none;
   }
+}
+
+@media (max-width: 650px) {
+  body {
+    font-size: 16px; 
+  }
+
+  .navbar {
+    padding: 10px;
+    border-radius: 10px; 
+    border: 3px solid #00bcd4;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%; 
+    max-width: 100%; 
+  }
+
+  .item-detail-container {
+    flex-direction: column;
+    align-items: center;
+
+  .item-detail {
+    width: 90%; 
+    padding: 10px; 
+  }
+
+  .item-detail img {
+    max-width: 100%; 
+  }
+
+  .btn-incrementar,
+  .btn-decrementar,
+  .btn-agregar-carrito,
+  .btn-vaciar-carrito,
+  .btn-finalizar-compra {
+    width: 100%; 
+    font-size: 14px; 
+    padding: 10px;
+  }
+
+  .form-finalizar-compra {
+    padding: 15px;
+  }
+
+  .input-field {
+    font-size: 14px;
+  }
+
+  .saludo-final {
+    padding: 15px;
+  }
+}
 }
