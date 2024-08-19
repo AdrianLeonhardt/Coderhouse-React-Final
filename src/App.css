@@ -60,17 +60,17 @@ body {
 /* Carrito */
 .carrito {
   position: relative;
-  background-color: #00bcd4; 
-  color: #fff; 
+  background-color: #00bcd4;
+  color: #fff;
   padding: 10px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px; 
-  height: 40px; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); 
-  cursor: pointer; 
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 
@@ -81,15 +81,15 @@ body {
 
 .numerito {
   position: absolute;
-  top: -1px; 
+  top: -1px;
   right: -1px;
-  background-color: #ff5722; 
-  color: #fff; 
+  background-color: #ff5722;
+  color: #fff;
   border-radius: 50%;
   font-size: 12px;
   padding: 4px 8px;
   transform: translate(50%, -50%);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -197,7 +197,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #fff; /* Fondo blanco para el contenedor */
+  background-color: #fff;
+  /* Fondo blanco para el contenedor */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -223,11 +224,11 @@ body {
 }
 
 .btn-incrementar {
-  background-color: #4caf50; 
+  background-color: #4caf50;
 }
 
 .btn-incrementar:hover {
-  background-color: #388e3c; 
+  background-color: #388e3c;
 }
 
 .btn-decrementar {
@@ -242,7 +243,7 @@ body {
 .btn-agregar-carrito {
   border: none;
   border-radius: 10px;
-  background-color: #00bcd4; 
+  background-color: #00bcd4;
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
@@ -251,7 +252,7 @@ body {
 }
 
 .btn-agregar-carrito:hover {
-  background-color: #0097a7; 
+  background-color: #0097a7;
 }
 
 /* Brief */
@@ -259,7 +260,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background-color: #fff; 
+  background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   max-width: 800px;
@@ -272,7 +273,8 @@ body {
   margin-bottom: 20px;
 }
 
-.carrito-detail h2, .carrito-detail h3 {
+.carrito-detail h2,
+.carrito-detail h3 {
   margin: 10px 0;
   color: #333;
 }
@@ -300,7 +302,7 @@ body {
 }
 
 .producto:last-child {
-  border-bottom: none; 
+  border-bottom: none;
 }
 
 /* Botón de vaciar carrito */
@@ -315,15 +317,15 @@ body {
   transition: background-color 0.3s;
   margin-top: 20px;
   display: block;
-  width: 100%; 
-  max-width: 200px; 
+  width: 100%;
+  max-width: 200px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
 .btn-vaciar-carrito:hover {
-  background-color: #c62828; 
+  background-color: #c62828;
 }
 
 .detalle-carrito {
@@ -345,8 +347,8 @@ body {
   transition: background-color 0.3s;
   margin-top: 20px;
   display: block;
-  width: 100%; 
-  max-width: 200px; 
+  width: 100%;
+  max-width: 200px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -359,9 +361,9 @@ body {
 /*FinalizarCompra */
 .form-finalizar-compra {
   background-color: #fff;
-  border-radius: 15px; 
+  border-radius: 15px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   max-width: 600px;
   margin: 20px auto;
 }
@@ -390,7 +392,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: #fff; 
+  background-color: #fff;
   border-radius: 15px;
   border: 5px solid #00bcd4;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -401,13 +403,13 @@ body {
 
 .saludo-final h1 {
   font-size: 24px;
-  color: #00bcd4; 
+  color: #00bcd4;
   margin-bottom: 10px;
 }
 
 .saludo-final h2 {
   font-size: 20px;
-  color: #333; 
+  color: #333;
   margin-top: 10px;
 }
 
@@ -437,12 +439,12 @@ body {
 
 @media (max-width: 650px) {
   body {
-    font-size: 16px; 
+    font-size: 16px;
   }
 
   .navbar {
     padding: 10px;
-    border-radius: 10px; 
+    border-radius: 10px;
     border: 3px solid #00bcd4;
   }
 
@@ -457,43 +459,43 @@ body {
   }
 
   .card {
-    width: 100%; 
-    max-width: 100%; 
+    width: 100%;
+    max-width: 100%;
   }
 
   .item-detail-container {
     flex-direction: column;
     align-items: center;
 
-  .item-detail {
-    width: 90%; 
-    padding: 10px; 
-  }
+    .item-detail {
+      width: 90%;
+      padding: 10px;
+    }
 
-  .item-detail img {
-    max-width: 100%; 
-  }
+    .item-detail img {
+      max-width: 100%;
+    }
 
-  .btn-incrementar,
-  .btn-decrementar,
-  .btn-agregar-carrito,
-  .btn-vaciar-carrito,
-  .btn-finalizar-compra {
-    width: 100%; 
-    font-size: 14px; 
-    padding: 10px;
-  }
+    .btn-incrementar,
+    .btn-decrementar,
+    .btn-agregar-carrito,
+    .btn-vaciar-carrito,
+    .btn-finalizar-compra {
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+    }
 
-  .form-finalizar-compra {
-    padding: 15px;
-  }
+    .form-finalizar-compra {
+      padding: 15px;
+    }
 
-  .input-field {
-    font-size: 14px;
-  }
+    .input-field {
+      font-size: 14px;
+    }
 
-  .saludo-final {
-    padding: 15px;
+    .saludo-final {
+      padding: 15px;
+    }
   }
-}
 }
