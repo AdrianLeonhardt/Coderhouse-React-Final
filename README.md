@@ -15,6 +15,10 @@ Esta rama contiene la actividad final del curso de React con Vite. El proyecto e
 
 El proyecto consiste en una tienda online en la que los usuarios pueden explorar y comprar diferentes tipos de ropa ficticia. La aplicación permite a los usuarios ver productos, añadirlos al carrito y simular una compra.
 
+## Gif del proceso de compra
+
+
+
 ## Características
 
 - **React Router DOM**: Manejo de navegación entre diferentes vistas de la tienda.
